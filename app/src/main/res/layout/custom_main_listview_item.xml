@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+
+        <ImageView
+
+            android:id="@+id/productImage"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/drawable_light_gradient"></View>
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:shrinkColumns="0"
+            android:stretchColumns="1">
+
+            <TableRow>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvProductName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:layout_marginTop="126dp"
+                        android:maxLines="1"
+                        android:text="Pollo Rostizado"
+                        android:textColor="@color/color_white"
+                        android:textSize="15sp"/>
+
+                    <TextView
+                        android:id="@+id/tvProductDescription"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:layout_marginTop="0dp"
+                        android:maxLines="1"
+                        android:text="Match you ready for spring"
+                        android:textColor="@color/color_white"
+                        android:textSize="15sp"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="132dp"
+                    android:layout_weight="1"
+                    android:ellipsize="none"
+                    android:gravity="right">
+
+                    <TextView
+                        android:id="@+id/tvPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:text="$5.25"
+                        android:textColor="@color/color_white"
+
+                        android:textSize="24sp"/>
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+    </FrameLayout>
+</LinearLayout>

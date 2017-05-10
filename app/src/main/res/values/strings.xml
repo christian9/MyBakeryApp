@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">My Bakery</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="label_nav_header_username">Alexander Graham Bell</string>
+    <string name="label_nav_header_email">justcallmealex@gmail.com</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_email">Correo Electrónico</string>
+    <string name="hint_pass">Contraseña</string>
+    <string name="btn_login_text">Iniciar Sesión</string>
+    <string name="btn_register_text">Crear una cuenta</string>
+    <string name="tv_forgot_password"><u>¿Olvidaste tu contraseña?</u></string>
+    <string name="lable_products_fragment">Fragment Productos</string>
+    <string name="label_fragment_two">Frgament Two</string>
+    <string name="add_to_favorites"><u>Agregar a favoritos</u></string>
+    <string name="product_details">Detalles</string>
+</resources>

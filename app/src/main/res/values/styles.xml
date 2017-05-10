@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="AppThemeDark" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorControlHighlight">@color/colorAccent</item>
+        <item name="android:colorActivatedHighlight">@color/colorAccent</item>
+
+        <item name="android:textColorHint">@color/colorAccent</item>
+        <item name="colorControlActivated">@color/color_white</item>
+        <item name="colorControlHighlight">@color/color_white</item>
+        <item name="colorControlNormal">@color/colorAccent</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <!-- *****************************
+
+    CUSTOMS STYLES
+    *************************************-->
+
+    <style name="EditTextForDarkBackground">
+        <item name="colorControlNormal">@color/color_semitransparent_white</item>
+        <item name="colorControlActivated">@color/color_semitransparent_white</item>
+        <item name="colorControlHighlight">@color/color_semitransparent_white</item>
+    </style>
+
+    <!--    TOOLBAR THEME   -->
+    <style name="ToolbarTheme" parent="AppTheme">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <!--    TAB LAYOUT -->
+    <style name="AppTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">@color/colorPrimary</item>
+        <item name="tabTextAppearance">@style/AppTabTextAppearance</item>
+        <item name="tabSelectedTextColor">@color/color_white</item>
+        <item name="tabIndicatorColor">@color/color_white</item>
+    </style>
+
+    <!-- for text -->
+    <style name="AppTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@color/color_light_gray</item>
+        <item name="textAllCaps">true</item>
+    </style>
+</resources>
